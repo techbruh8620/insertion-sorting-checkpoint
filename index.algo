@@ -1,0 +1,14 @@
+ALGORITHM Insertionsort
+VAR
+    array: an array of elements to be sorted
+    n:the number of elements in thr array
+BEGIN
+    FOR i <-1 TO n-1
+    key <-array[i]
+    j <-i-1
+    WHILE j>=0 And array[j]
+        j<-j-1
+      END_WHILE
+     array[j+1]<-key
+    END_FOR
+END
