@@ -9,6 +9,6 @@ BEGIN
     WHILE j>=0 And array[j]
         j<-j-1
       END_WHILE
-     array[j+1]<-key
+     array[j+1]<-key 
     END_FOR
 END
